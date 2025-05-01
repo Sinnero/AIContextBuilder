@@ -9,7 +9,7 @@ When interacting with AI assistants (like ChatGPT, Claude, Copilot, etc.) for co
 
 ## The Solution
 
-`[Repo Name]` automates this process. Point it at a directory, choose your desired output format, and it will bundle the content for you:
+`AIContextBuilder` automates this process. Point it at a directory, choose your desired output format, and it will bundle the content for you:
 
 *   **Clipboard:** Copies all text content directly to your clipboard, ready to paste.
 *   **Text File (.txt):** Saves all text content into a single, well-formatted text file.
@@ -49,7 +49,7 @@ This makes providing extensive context to AI tools significantly faster and easi
     git clone https://github.com/Sinnero/AIContextBuilder.git
     cd AIContextBuilder
     ```
-    *Or just download `your_script_name.py`.*
+    *Or just download `run.py`.*
 
 2.  **Install required libraries:**
     It's highly recommended to use a virtual environment:
@@ -67,7 +67,7 @@ This makes providing extensive context to AI tools significantly faster and easi
 
 1.  **Run the script from your terminal:**
     ```bash
-    python your_script_name.py
+    python run.py
     ```
 
 2.  **Follow the prompts:**
@@ -81,7 +81,7 @@ This makes providing extensive context to AI tools significantly faster and easi
 
 ## Configuration (Optional)
 
-You can modify the script's behavior by changing the constants defined near the top of `your_script_name.py`:
+You can modify the script's behavior by changing the constants defined near the top of `run.py`:
 
 *   `MAX_SIZE_FOR_TEXT_OUTPUT`: Maximum size (in bytes) for individual text files to be included.
 *   `TEXT_EXTENSIONS`: Set of file extensions treated as text files.
