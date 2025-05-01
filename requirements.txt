@@ -1,0 +1,4 @@
+fpdf2==2.8.3
+pillow==11.2.1
+pypdf==5.4.0
+pyperclip==1.9.0
