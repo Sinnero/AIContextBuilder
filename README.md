@@ -46,8 +46,8 @@ This makes providing extensive context to AI tools significantly faster and easi
 
 1.  **Clone the repository (or download the script):**
     ```bash
-    git clone https://github.com/your-username/[Repo Name].git
-    cd [Repo Name]
+    git clone https://github.com/Sinnero/AIContextBuilder.git
+    cd AIContextBuilder
     ```
     *Or just download `your_script_name.py`.*
 
