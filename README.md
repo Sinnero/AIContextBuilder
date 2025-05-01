@@ -59,9 +59,12 @@ This makes providing extensive context to AI tools significantly faster and easi
     ```
     Then install the dependencies:
     ```bash
+    pip install -r requirements.txt
+    ```
+    or
+    ```bash
     pip install fpdf2 Pillow pypdf pyperclip
     ```
-    *(You can also create a `requirements.txt` file with these libraries and run `pip install -r requirements.txt`)*
 
 ## Usage
 
